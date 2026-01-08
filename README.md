@@ -51,7 +51,7 @@ Ek olarak, `ffmpeg` kütüphanesinin de sistemde kurulu olması gerekmektedir:
 
 ## Model Eğitimi
 
-Projede kullanılan model, MFCC (Mel Frequency Cepstral Coefficients) özniteliklerini kullanarak konuşmacıları tanır. Eğitim sürecinde, ses dosyalarından çıkarılan MFCC öznitelikleri kullanılarak bir sınıflandırıcı (MLP Classifier) eğitilmiştir.
+Projede kullanılan model, MFCC (Mel Frequency Cepstral Coefficients) özniteliklerini kullanarak konuşmacıları tanır ve ayırır. Eğitim sürecinde, ses dosyalarından çıkarılan MFCC öznitelikleri kullanılarak bir sınıflandırıcı (MLP Classifier) eğitilmiştir.
 
 Eğer modeli yeniden eğitmek isterseniz, `AudioML4.ipynb` dosyasını çalıştırabilirsiniz.
 
